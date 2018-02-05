@@ -3,8 +3,18 @@
 <head>
 	<title>Analog Sea</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet'>
 </head>
 <body>
 	<img class="logo" src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png">
+	<form action="/sign-up/" method='post'>
+		<h1>Sign up</h1>
+		<fieldset name="sign-up">
+			<label for="email" required>Email</label><input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
+			<label for="password" required>Password</label><input type="Password" name="password" id="password" placeholder="1234passw0rd" required/>
+		</fieldset>
+		<button type="submit">Sign Up</button>
+	</form>
+	<h6>Aleady have an account?<a href="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/6b/79/98/6b799807-eead-a261-aadd-5f514a57e760/pr_source.png/246x0w.png">Log in</a>
 </body>
 </html>
