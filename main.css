@@ -1,0 +1,11 @@
+body {
+	background-color: #03A9F4;
+	margin: 10px;
+}
+.logo {
+	height: 35px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
